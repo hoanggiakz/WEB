@@ -1,0 +1,84 @@
+            * {
+                box-sizing: border-box;
+                padding: auto;
+                margin: auto;
+            }
+            
+            .khung {
+                width: 960px;
+                height: 100%;
+                font-family: Arial, Helvetica, sans-serif;
+                border: 1px solid black;
+            }
+            
+            nav {
+                height: 100px;
+                width: 100%;
+                background-color: brown;
+            }
+            
+            nav ul {
+                list-style: none;
+                display: flex;
+            }
+            
+            nav ul li a {
+                text-decoration: none;
+                color: aliceblue;
+            }
+            
+            nav ul li a:hover {
+                color: yellow;
+            }
+            
+            header {
+                height: 300px;
+                width: 100%;
+            }
+            
+            section {
+                height: 450px;
+                width: 50%;
+                float: left;
+                margin: 30px;
+            }
+            
+            aside {
+                height: 450px;
+                width: 40%;
+                float: right;
+            }
+            
+            footer {
+                clear: both;
+                height: 100px;
+                background-color: brown;
+            }
+            
+            .tren {
+                background-color: brown;
+                margin-top: 30px;
+            }
+            
+            .tren ul li {
+                list-style: none;
+                border-bottom: 2px solid white;
+                padding: 20px;
+            }
+            
+            .tren ul li a {
+                color: white;
+                text-decoration: none;
+            }
+            
+            .duoi input {
+                font-family: 'Times New Roman', Times, serif;
+                width: 300px;
+                border-radius: 5px;
+                margin-top: 8px;
+            }
+            
+            .duoi {
+                background-color: antiquewhite;
+                margin-top: 50px;
+            }

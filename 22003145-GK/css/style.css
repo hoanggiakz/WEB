@@ -1,0 +1,50 @@
+*{
+    margin: auto;
+    padding: auto;
+    box-sizing: border-box;
+}
+body{
+    width: 960px;
+}
+.khung{
+    border: 2px solid black;
+    width: 100%;
+}
+.input{
+    text-align: right;
+}
+header{
+    background-image: url(../img/nen_header.jpg);
+}
+.logo{
+    float: left;
+    display: flex;
+    width: 60%;
+}
+.ttdt{
+  font-weight: bolder;
+  font-family: 'Times New Roman', Times, serif;
+  position: relative;
+  left: 120px;
+  bottom: 70px;
+}
+nav{
+    padding-top: 10px;
+    background-color: #eac54d ;
+}
+ul.menu{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    margin-right: 10px;
+}
+ul.menu li{
+    text-align: left;
+    margin-right: 30px;
+}
+li a{
+    text-decoration: none;
+}
+a:hover{
+    color: red;
+}

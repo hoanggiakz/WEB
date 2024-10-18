@@ -1,0 +1,109 @@
+* {
+    box-sizing: border-box;
+    margin: auto;
+    padding: auto;
+}
+
+.k1 {
+    height: 760px;
+    width: 960px;
+    border: 1px solid black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+    background-color: brown;
+    height: 60px;
+}
+
+header {
+    /* width: 100pc; */
+    height: 300px;
+}
+
+section {
+    width: 60%;
+    height: 400px;
+    float: left;
+}
+
+aside {
+    width: 40%;
+    height: 400px;
+    float: right;
+}
+
+footer {
+    text-align: center;
+    background-color: brown;
+    height: 200px;
+    clear: both;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    float: left;
+    margin: 20px;
+}
+
+nav ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: yellow;
+}
+
+h3 {
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: underline;
+    margin: 10px;
+}
+
+.anh1 {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 10px;
+}
+
+.anh2 {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 10px;
+}
+
+.s1 ul {
+    margin-top: 20px;
+}
+
+.s1 ul li {
+    background-color: brown;
+    padding: 20px;
+    list-style-type: none;
+    border-bottom: 1px solid white;
+    color: aliceblue;
+}
+
+.s2 input {
+    font-family: 'Times New Roman', Times, serif;
+    width: 300px;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+.s2 {
+    margin-top: 30px;
+    background-color: beige;
+}
+
+.s2 form {
+    padding: 20px;
+}
+
+footer {
+    color: aliceblue;
+}
